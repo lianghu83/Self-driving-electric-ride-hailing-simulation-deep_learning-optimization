@@ -386,7 +386,7 @@ for j in range(len(time_range)):
 print(datetime.now()-start_running)
 
 #%%write output
-"""
+
 Taxi.to_csv('H:\\EAV Taxi Data\\'+scenario+'\\taxi_output.csv', index=False)
 Request.to_csv('H:\\EAV Taxi Data\\'+scenario+'\\request_output.csv', index=False)
 
@@ -406,9 +406,3 @@ plt.hist(optimization_times)
 sum(optimization_times)
 pd.DataFrame(optimization_times).to_csv('H:\\EAV Taxi Data\\'+scenario+'\\optimization_times.csv', index=False)
 
-
-
-
-
-
-"""
